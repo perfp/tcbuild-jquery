@@ -2,6 +2,7 @@
 jQuery plugin for showing Team City build status.
 
 Usage: 	
+		
 	<script src="jquery.js" />
 	<script language="javascript">
 		$(".tc-status").TCBuild({url: 'http://teamcityserver/guestAuth/api/rest', interval: 10000 });
