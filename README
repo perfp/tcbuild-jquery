@@ -1,18 +1,16 @@
+
+jQuery plugin for showing Team City build status.
+
+Usage: 	
+	<script src="jquery.js" />
+	<script language="javascript">
+		$(".tc-status").TCBuild({url: 'http://teamcityserver/guestAuth/api/rest', interval: 10000 });
+	</script>
+	<div class="tc-status" dagta-buildtype="bt2" />
 	
-	jQuery plugin for showing Team City build status.
+This will pull the build status from TeamCity every <interval>, and fill the <div> with these elments:
+	<img name="statusimage"...>
+	<div name="buildtypename" ...>
+	<div name="buildstatus" ...>
 	
-	Usage: 
-		
-		<script src="jquery.js" />
-		<script language="javascript">
-			$(".tc-status").TCBuild({url: 'http://teamcityserver/guestAuth/api/rest', interval: 10000 });
-		</script>
-		<div class="tc-status" dagta-buildtype="bt2" />
-		
-	This will pull the build status from TeamCity every <interval>, and fill the <div> with these elments:
-		<img name="statusimage"...>
-		<div name="buildtypename" ...>
-		<div name="buildstatus" ...>
-		
-		
-		
+The ASP.NET project set up using ManagedFusion.Rewriter to act as a reverse proxy in case this isn't hosted on your TeamCity server, because that would't work because of the Same-Origin policy.
