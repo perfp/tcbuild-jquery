@@ -1,0 +1,18 @@
+	
+	jQuery plugin for showing Team City build status.
+	
+	Usage: 
+		
+		<script src="jquery.js" />
+		<script language="javascript">
+			$(".tc-status").TCBuild({url: 'http://teamcityserver/guestAuth/api/rest', interval: 10000 });
+		</script>
+		<div class="tc-status" dagta-buildtype="bt2" />
+		
+	This will pull the build status from TeamCity every <interval>, and fill the <div> with these elments:
+		<img name="statusimage"...>
+		<div name="buildtypename" ...>
+		<div name="buildstatus" ...>
+		
+		
+		
