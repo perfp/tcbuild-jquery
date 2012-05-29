@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://utvapp058.common.jernbaneverket.local:82" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="http://utvapp058.common.jernbaneverket.local:82/" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FPSE" replaceMatchingFiles="True" userName="common\xpedepe" savePWD="False" userPWD="" SelectedForPublish="True" />
+</publishData>

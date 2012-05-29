@@ -9,6 +9,7 @@
     display: inline-table;
     font-size: 24px;
     border-radius: 15px;
+    /*behavior: url('rounded_corners.htc');*/
 }
 
 .tc-status img {
